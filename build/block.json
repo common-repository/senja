@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "senja/widget",
+  "version": "1.0.0",
+  "title": "Senja",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Block for Testimonial Widget.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "textdomain": "senja",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
